@@ -1,5 +1,11 @@
 // console.log("Hello world");
 
+const pi=3.14;
+let age =22;
+var age2=23;
+name2= "Jayesh"; 
+console.log(typeof name2);
+
 let num=89764565464654n;
 
 // console.log(typeof num);
