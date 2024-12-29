@@ -48,7 +48,21 @@ let userprof={
     lastLogin:[101012, 1465464]
 }
 
-console.log(Object.keys(userprof));
-console.log(Object.values(userprof));
-console.log(Object.entries(userprof));
+// console.log(Object.keys(userprof));
+// console.log(Object.values(userprof));
+// console.log(Object.entries(userprof));
+
+
+let {"Aadhar No": ad,email, name2="vivek"}=userprof;
+let userData={
+    name:"Jayesh",
+    age:22,
+    edu:{
+        stream:'science',
+        branch:'extc'
+    }
+}
+
+let {name, edu:{study}}=userData;
+console.log(name1);
 
